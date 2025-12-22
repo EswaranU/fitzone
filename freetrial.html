@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FitZone | Free Trial</title>
+
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+    }
+
+    .form-container {
+      max-width: 500px;
+      margin: 80px auto;
+      padding: 40px;
+      background: linear-gradient(135deg, #7dd3fc, #1e40af);
+      border-radius: 40px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+    }
+
+    p {
+      text-align: center;
+      margin-bottom: 30px;
+      opacity: 0.9;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      border: none;
+      font-size: 16px;
+    }
+
+    input:focus, select:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px black;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: white;
+      color: black;
+    }
+    body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+
+  background-image: url("freetrail.png");
+  background-size: cover;        /* scales image */
+  background-position: center;   /* keeps center visible */
+  background-repeat: no-repeat;  /* no tiling */
+  background-attachment: fixed;  /* optional: parallax feel */
+}
+
+  </style>
+</head>
+
+<body>
+
+  <div class="form-container">
+    <h1>FREE TRIAL</h1>
+    <p>Start your fitness journey with FitZone</p>
+
+    <form>
+      <label>Full Name</label>
+      <input type="text" placeholder="Enter your name" required>
+
+      <label>Email</label>
+      <input type="email" placeholder="Enter your email" required>
+
+      <label>Phone Number</label>
+      <input type="tel" placeholder="Enter your phone number" required>
+
+      <label>Age</label>
+      <input type="number" placeholder="Enter your age">
+
+      <label>Gender</label>
+      <select>
+        <option>Select</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+
+      <label>Fitness Goal</label>
+      <select>
+        <option>Select</option>
+        <option>Weight Loss</option>
+        <option>Muscle Gain</option>
+        <option>General Fitness</option>
+      </select>
+
+      <button type="submit">Start Free Trial</button>
+    </form>
+  </div>
+
+</body>
+</html>
